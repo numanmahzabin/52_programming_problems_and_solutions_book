@@ -9,6 +9,6 @@ for x in range(0, t):
             divisor.append(i)
             divisor.append(n // i)
     divisor = sorted(divisor)
-    for i in divisor:
-        print(' ', i, sep='',end='')
+    for k in divisor:
+        print(' ', k, sep='',end='')
     print()
